@@ -158,7 +158,8 @@ SELECT id, prediction, user_verification FROM predictions;
 3. Click "Try it Out"
 
 4. Enter your username and password to register with the database
-```bash{
+```bash
+{
   "username": "newuser",
   "password": "newpassword",
   "disabled": false
