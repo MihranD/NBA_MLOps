@@ -1,11 +1,9 @@
 name: Python API Tests
 
 on:
-  schedule:
-    - cron: '0 4 1 * *' # Every month on the 1st at 4 am UTC
-  #push:
-    #branches:
-      #- '**' # runs on every branch
+  push:
+    branches:
+      - '**' # runs on every branch
   pull_request:
     branches:
       - '**'
@@ -46,7 +44,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
+          python-version: '3.10-slim'
 
       - name: Install dependencies
         run: |
