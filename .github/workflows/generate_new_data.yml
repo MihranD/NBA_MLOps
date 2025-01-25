@@ -1,19 +1,20 @@
 name: Generate New Data
 
-#on:
-  #schedule:
-  #  - cron: '0 4 1 * *' # Every month on the 1st at 4 am UTC
-  #push:
-  #  branches:
-  #    - '**'
-
 on:
+  schedule:
+    - cron: '0 4 1 * *' # Every month on the 1st at 4 am UTC
   push:
     branches:
-      - '**' # runs on every branch
-  pull_request:
-    branches:
       - '**'
+
+# TODO: Use only for quick testing
+#on:
+#  push:
+#    branches:
+#      - '**' # runs on every branch
+#  pull_request:
+#    branches:
+#      - '**'
 
 permissions:
   contents: write  # Grant write permission to contents

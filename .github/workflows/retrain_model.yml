@@ -2,7 +2,7 @@ name: Retrain and push to Docker Hub
 
 on:
   schedule:
-    - cron: '0 5 1 * *' # Every month on the 1st at 5 am UTC
+    - cron: '46 18 * * *' # Every month on the 1st at 5 am UTC
   push:
     #branches:
     #  - '**'
