@@ -18,7 +18,7 @@ route:
 receivers:
 - name: 'all-notifications'
   email_configs:
-  - to: 'fake@gmail.com'
+  - to: 'mihran.dovlatyan@gmail.com'
     send_resolved: true
   slack_configs:
   - channel: '#may24_bmlops_int_nba'
