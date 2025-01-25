@@ -1,9 +1,8 @@
 name: Retrain and push to Docker Hub
 
 on:
-  push:
-    branches:
-      - '**' # runs on every branch
+  schedule:
+    - cron: '0 5 * * *' # Every day at 5 am UTC
   pull_request:
     branches:
       - '**'
