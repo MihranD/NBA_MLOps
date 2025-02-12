@@ -1322,3 +1322,48 @@
 2025-01-26 06:20:41,227 - logs.logger - INFO - Model inference completed.
 2025-01-26 06:20:41,227 - logs.logger - INFO - -----------------------------------
 2025-01-26 06:20:41,227 - logs.logger - INFO - Removed signal_new_model_version file.
+2025-02-12 06:20:39,506 - logs.logger - INFO - Custom logger module initialized.
+2025-02-12 06:20:39,506 - logs.logger - INFO - ---------------------------------
+2025-02-12 06:20:39,507 - logs.logger - INFO - (1) Starting the data ingestion process.
+2025-02-12 06:20:39,507 - logs.logger - INFO - Reading data from CSV file: ../../data/new_data/new_data.csv
+2025-02-12 06:20:39,510 - logs.logger - INFO - Data read successfully from CSV file.
+2025-02-12 06:20:39,511 - logs.logger - INFO - Validating data.
+2025-02-12 06:20:39,511 - logs.logger - INFO - Data validation passed.
+2025-02-12 06:20:39,511 - logs.logger - INFO - Reading data from CSV file: ../../data/raw/NBA Shot Locations 1997 - 2020.csv
+2025-02-12 06:20:39,530 - logs.logger - INFO - Data read successfully from CSV file.
+2025-02-12 06:20:39,530 - logs.logger - INFO - Appending new data to existing data.
+2025-02-12 06:20:39,531 - logs.logger - INFO - Data appended successfully.
+2025-02-12 06:20:39,531 - logs.logger - INFO - Saving data to CSV file: ../../data/raw/NBA Shot Locations 1997 - 2020.csv
+2025-02-12 06:20:39,571 - logs.logger - INFO - Data saved successfully.
+2025-02-12 06:20:39,571 - logs.logger - INFO - Data ingestion process completed.
+2025-02-12 06:20:39,572 - logs.logger - INFO - ---------------------------------
+2025-02-12 06:20:41,614 - logs.logger - INFO - Custom logger module initialized.
+2025-02-12 06:20:41,615 - logs.logger - INFO - ---------------------------------
+2025-02-12 06:20:41,615 - logs.logger - INFO - (2) Starting the data processing process.
+2025-02-12 06:20:41,615 - logs.logger - INFO - Data loaded from ../../data/raw/NBA Shot Locations 1997 - 2020.csv.
+2025-02-12 06:20:41,661 - logs.logger - INFO - ../../data/processed/NBA Shot Locations 1997 - 2020-processed.csv
+2025-02-12 06:20:41,661 - logs.logger - INFO - Data processing pipeline completed.
+2025-02-12 06:20:41,661 - logs.logger - INFO - -----------------------------------
+2025-02-12 06:20:44,207 - logs.logger - INFO - Custom logger module initialized.
+2025-02-12 06:20:44,207 - logs.logger - INFO - ---------------------------------
+2025-02-12 06:20:44,207 - logs.logger - INFO - (3) Starting the feature engineering process.
+2025-02-12 06:20:44,208 - logs.logger - INFO - Loading data from ../../data/processed/NBA Shot Locations 1997 - 2020-processed.csv.
+2025-02-12 06:20:44,227 - logs.logger - INFO - New joblib file generated successfully.
+2025-02-12 06:20:44,227 - logs.logger - INFO - ../../data/processed/NBA Shot Locations 1997 - 2020-train-test.joblib
+2025-02-12 06:20:44,228 - logs.logger - INFO - Feature engineering completed.
+2025-02-12 06:20:44,228 - logs.logger - INFO - -----------------------------------
+2025-02-12 06:20:47,060 - logs.logger - INFO - Custom logger module initialized.
+2025-02-12 06:20:47,060 - logs.logger - INFO - ---------------------------------
+2025-02-12 06:20:47,061 - logs.logger - INFO - (4) Starting the model training process.
+2025-02-12 06:21:00,275 - logs.logger - INFO - Model file data saved successfully.
+2025-02-12 06:21:00,276 - logs.logger - INFO - ../../trained_models/model_best_lr-v1-20250212.joblib
+2025-02-12 06:21:00,276 - logs.logger - INFO - Model training completed.
+2025-02-12 06:21:00,276 - logs.logger - INFO - -----------------------------------
+2025-02-12 06:21:02,268 - logs.logger - INFO - Custom logger module initialized.
+2025-02-12 06:21:02,268 - logs.logger - INFO - ---------------------------------
+2025-02-12 06:21:02,268 - logs.logger - INFO - (5) Starting the model prediction process.
+2025-02-12 06:21:02,645 - logs.logger - INFO - Prediction file data saved successfully.
+2025-02-12 06:21:02,645 - logs.logger - INFO - ../../data/predictions/predictions.csv
+2025-02-12 06:21:02,646 - logs.logger - INFO - Model inference completed.
+2025-02-12 06:21:02,646 - logs.logger - INFO - -----------------------------------
+2025-02-12 06:21:02,646 - logs.logger - INFO - Removed signal_new_model_version file.
